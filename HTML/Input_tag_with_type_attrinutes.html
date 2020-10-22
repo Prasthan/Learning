@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!--input type text is for normal text-->
+        <label for="fname">First name:</label>
+        <input type="text" name="first_name">
+        <!--name is for server to know-->
+        <br>
+        <label for="lname">Second name:</label>
+        <input type="text" name="last_name">
+        <br>
+        <!--input type email is for email-->
+        <label for="email">Email:</label>
+        <input type="email" name="user_mail">
+        <br>
+        <!--input type password is for password-->
+        <label for="password">Password:</label>
+        <input type="password" name="user_password">
+        <br>
+        <!--type date is for date-->
+        <label for="dob">Date of birth:</label>
+        <input type="date" name="dob">
+        <br>
+        <!--type radio is for only one selection-->
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Custom
+        <br>
+        <!--type checkbox is for multiple selection-->
+        <label for="language">Language:</label>
+        <input type="checkbox" name="language">English
+        <input type="checkbox" name="language">Nepali
+        <input type="checkbox" name="language">Arabic
+        <br>
+        <!--type time is for time selection-->
+        <label for="time">Time:</label>
+        <input type="time" name="submittime">
+        <br>
+        <!--type datetime-local is for both date and time selection-->
+        <label for="dateandtime">DOB with date and time:</label>
+        <input type="datetime-local" name="DOBwithtimeanddate">
+        <br>
+        <!--type month is for Month selection-->
+        <label for="birthmonth">Birth Month:</label>
+        <input type="month" name="DOBmonth">
+        <br>
+        <!--type week is for week selection-->
+        <label for="week">Week</label>
+        <input type="week" name="week">
+        <br>
+        <!--type color is for color selection-->
+        <label for="color">Pick the color:</label>
+        <input type="color" name="color">
+        <br>
+        <!--type file is for file selection-->
+        <label for="file">File:</label>
+        <input type="file" name="file">
+        <br>
+        <!--accept attribute only accept the selected value to upload, below I have choosen only audio file-->
+        <label for="file">Audio File</label>
+        <input type="file" name="audiofile" accept="audio/*">
+        <br>
+        <!--only accept video file-->
+        <label for="file">Video File</label>
+        <input type="file" name="videofile" accept="video/*">
+        <br>
+        <!--only accept image file-->
+        <label for="file">Image File</label>
+        <input type="file" name="imagefile" accept="image/*">
+        <br>
+        <!--for multiple selection-->
+        <label for="file">All types of File</label>
+        <input type="file" name="allfile" accept="audio/*, image/*, video/*">
+        <br>
+        <!--type number is for number selection like no of person and min & max is for number-->
+        <label for="Count">No of Person:</label>
+        <input type="number" name="noofperson" min="1" max="5">
+        <br>
+        <!--type range is for like a volumn slider where we can add min and max value-->
+        <label for="range">Range</label>
+        <input type="range" name="range" min="0" max="10">
+        <br>
+        <!--type search is for search box-->
+        <label for="search">Search</label>
+        <input type="search" name="searchfile">
+        <br>
+        <!--type url is for uploading url file only-->
+        <label for="url">Website URL</label>
+        <input type="url" name="websiteurl">
+        <br>
+        <label for="submit"></label>
+        <input type="" name="">
+        <br>
+        <!--type submit is for submit button-->
+        <input type="submit" value="Submit">
+        <!--type reset is for reseting the entire form-->
+        <input type="reset" value="Reset">
+        <!--type button is for button to click where action is commanded-->
+        <input type="button" value="Click Me" 
+    </form>
+
+</body>
+
+</html>
