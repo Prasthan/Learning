@@ -17,4 +17,9 @@ git command:
 5. git checkout #number    [for to go in previous stage]    [#number is we must put hash number here by doing git log or git log --oneline]
    git checkout master    [for to go in original or recent stage]
 
-6. 
+6. push our code to github:
+	git push origin master    [this code pushes the file to github]
+	git diff --staged
+
+7. to copy/clone github repo to computer file
+	git clone "url"    [you can copy url from github repo]
