@@ -1,0 +1,20 @@
+git command:
+- We must push files from LOCAL AREA to STAGING AREA and STAGING AREA to RPOSITORY AREA
+
+1. git config --list    [shows the users]
+
+2. to add or push file to staging area:
+	git add filename.txt    [for single file]
+	git add filename.txt filename2.txt    [for multiple files]
+	git add .    [for all files]  
+
+3. to commit the changes:
+	git commit -m "MESSAGE"    [must provide message inside ""]
+
+4. git log    [view commit history]
+   git log --oneline    [view in oneline]
+
+5. git checkout #number    [for to go in previous stage]    [#number is we must put hash number here by doing git log or git log --oneline]
+   git checkout master    [for to go in original or recent stage]
+
+6. 
