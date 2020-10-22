@@ -23,3 +23,25 @@ git command:
 
 7. to copy/clone github repo to computer file
 	git clone "url"    [you can copy url from github repo]
+
+8. to create a branch:
+	git branch    [to view the branches]
+	git branch branchname    [in branchname, users can put any name]
+	git checkout branchname    [to enter into created branch]
+	
+	example: git branch new_project    [here, i have created new branch called new_project]
+		 git checkout new_project    [now, we enter into new_project branch]
+	[If we make mistakes in new_project branch, it won't affect in master branch or main file. We can delete branch in case of mistakes.]
+	[If the things goes as requirement, then we can merge it with main file or master branch.]
+
+9. to merge:
+	git merge new_project    [to merge with main branch or master branch]
+				[to merge into branch, first we have to go to that branch by "git checkout branchname"]
+
+10. to delete branch:
+	git branch -d branchname    [from lowercase d, we cannot delete unmerged branch]
+	git branch -D branchname    [but from uppercase D, we can delete unmerged branch]
+
+11. to view merger and not merged branch:
+	git branch --merged	[shows merged branch]
+	git branch --no-merged	[shows not merged branch]
