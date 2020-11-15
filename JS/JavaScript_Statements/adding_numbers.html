@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Statements</title>
+</head>
+<body>
+    <h2>JavaScript Stataments</h2>
+    <p>A <strong>JavaScript program</strong> is a list of <strong>statements</strong> to be executed by a computer.</p>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+<!-- A computer program is a list of "instructions" which is "executed" by the computers. -->
+<!-- In a programming language, these programming instructions are called Statements. -->
+<!-- A JavaScript program is a list of programming Statements. -->
+<!-- In HTML, JS programs are executed by the web browsers. -->
+    <script>
+        // var is a keyword in JS, which helps to declare a variable
+        var x, y, z;    // Statement 1
+        x = 5;          // Statement 2
+        y = 3;          // Statement 3
+        z = x + y;      // Statement 4
+        
+        document.getElementById("demo").innerHTML = "The value of z is " + z + ".";
+    </script>
+
+<!-- JS code blocks are written between { and } -->
+    <script>
+        // function is a keyword in JS, from "function" we can declares a function
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "Hello World!";
+            document.getElementById("demo2").innerHTML = "How are you?";
+        }
+    </script>
+</body>
+</html>
