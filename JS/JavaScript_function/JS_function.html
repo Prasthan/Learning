@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+</head>
+<body>
+    <p>This example calls a function which performs a calculation, and returns the result:</p>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+    <script>
+        function addition(a, b) {
+            return a * b;   // The function returns the product of a and b.
+        }
+
+        document.getElementById("demo").innerHTML = addition(7, 4);
+    </script>
+
+    <script>
+        var x = addition(4, 3);     // Function is called, return value will end up in x
+        document.getElementById("demo2").innerHTML = x;
+
+        function addition(a, b){
+            return a + b;       // Function returns the product of a and b
+        }
+    </script>
+</body>
+</html>
+
+<!--
+    Note: Function parameters are listed inside the parenthesis () in the function definition.
+          Function arguments are the values received by the function when it is invoked.
+          Inside the function, the arguments (the parameters) behave as local variables.
+
+    Function Invocation:
+        The code inside the function will execute when "something" invokes (calls) the function:
+            - When an event occurs (when a user clicks a button)
+            - When it is invokes (called) from JS code
+            - Automatically (self invoked)
+-->

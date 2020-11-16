@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typeof</title>
+</head>
+<body>
+    <h1>JavaScript variables can hold many data types: numbers, strings, objects and more:</h1>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+
+    <script>
+        var SN = 190063,    // Datatype = number 
+        Name = "Prasthan",      // Datatype = string
+        Batch  = "26 + 'A'",    // Datatype = string    [Note: String + Number = String]
+        Per = 64.76,        // Datatype = number    [Decimal and Non-deciman are number] 
+        Sign,       // Datatype = undefined     [No value = undefined]
+        Confirm = null,     // Datatype = object      [value is null, but type is still an object]
+        Total = {SN:"190063", Name:"Prasthan"};     // Datatype = object    [typeof operator retruns "object" for arrays]
+/*[Note: The typeof operator returns "object" for objects, array and null]
+  [Note: The typeof operator doesnot return "object" for functions.]
+*/
+        document.getElementById("demo").innerHTML = typeof SN;
+        document.getElementById("demo2").innerHTML = typeof Name;
+        document.getElementById("demo3").innerHTML = typeof Batch;
+        document.getElementById("demo4").innerHTML = typeof Per;
+        document.getElementById("demo5").innerHTML = typeof Sign;
+        document.getElementById("demo6").innerHTML = typeof Confirm;
+        document.getElementById("demo7").innerHTML = typeof Total;
+
+    </script>
+</body>
+</html>

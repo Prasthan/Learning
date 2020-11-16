@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Objects</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // Create an object:
+        var person = {
+            firstName: "Ruth", 
+            middleName: "Chemjong",
+            lastName: "Limbu",
+            id: 146,
+            fullName: function(){
+                return this.firstName + " " + this.middleName + " " + this.lastName;
+                /*
+                    - In a function definition, "this" refers to the "owner" of the function.
+                    - Above, "this" is the person object that "owns" the "fullname" function.
+                    - In other words, "this.firstName" means the "firstName" property of this object.
+                */
+            }
+        }
+        // Display data from the object:
+        document.getElementById("demo").innerHTML = person.fullName();
+    </script>
+</body>
+</html>
+
+<!--
+    - In real life, a car is an object.
+    - A car has properties like weight and color, and methods like start and stop.
+    - All cars have the same properties, but the property values differ from car to car.
+    - All cars have the same methods, but the methods are performed at different times.
+    - Example:
+            var car = {type:"Audi", model:"500", color:"white"};
+
+    - The values are written as name:value pairs (name and value seperated by a colon).
+    - JavaScript objects are containers for name and values called properties or methods.
+-->
+
+<!--
+    - Objects can also have methods.
+    - Methods are actions that can be performed on objects.
+    - Methods are stored in properties as function definitions.
+    Note: A method is a function stored as a property.
+-->
