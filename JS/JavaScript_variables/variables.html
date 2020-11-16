@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaring Variables</title>
+</head>
+<body>
+    <p>Create a variables, assign a value to it, and display it.</p>
+    <h2>Cars</h2>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+        var carName = "Porche";     // We can declare many variables in one statement by seperating them with comma.
+        var carName2 = "Audi";      // Like, var carName = "Volvo", person = "Prasthan", price = 200;
+        var carName3;
+        document.getElementById("demo").innerHTML = carName;
+        document.getElementById("demo2").innerHTML = carName2;
+        // A variable declared without a value will have the value undefined.
+        document.getElementById("demo3").innerHTML = carName3;
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+1. Comparison Operators:
+
+Operators       Description
+    ==              equal to
+    ===             equal value and equal type
+    !=              not equal
+    !==             not equal value and equal type
+    >               greater than
+    <               less than
+    >=              greater than or equal to
+    <=              less than or equal to
+    ?               ternary operator
+
+2. Logical Operators:
+
+Operators          Description
+    &&                 logical and
+    ||                 logical or
+    !                  logical not
+
+3. Type Operators:
+
+Operators           Description
+    typeof              Returns the type of a variable
+    instanceof          Returns true if an object is an instance of an object type
+
+
