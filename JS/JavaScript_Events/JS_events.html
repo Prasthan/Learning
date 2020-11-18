@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">The time is </button>
+    <p id="demo"></p>
+
+    <!-- We can call it by making a function, like below... -->
+
+    <button onclick="displayDate()">The time is </button>
+    <p id="demo2"></p>
+    <script>
+        function displayDate(){
+            document.getElementById("demo2").innerHTML = Date();
+        }
+    </script>
+</body>
+</html>
+
+<!--
+    There are so many HTML events, some common events are:
+        - onchange
+        - onclick
+        - onmouseover
+        - onmouseout
+        - onkeydown
+        - onload
+-->
