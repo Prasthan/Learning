@@ -1,0 +1,56 @@
+*{
+    background-color: #FFD655;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 2px;
+}
+
+.calculate{
+    background-color: #FFE6B4;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    text-align: center;
+    border: 2px outset;
+    padding: 5px;
+}
+
+.main{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    background-color: #FFE6B4;
+    text-align: center;
+    border-radius: 15px 50px 30px;
+    height: 20px;
+}
+
+input:hover{
+    background-color: rgb(11, 216, 11);
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.button:hover{
+    opacity: 1;
+    background-color: wheat;
+    color: green;
+}
+
+#answer{
+    text-align: center;
+    margin-top: 20px;
+}

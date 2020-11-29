@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest</title>
+
+    <link rel="stylesheet" href="simple.css">
+</head>
+
+<body>
+    <div>
+        <h2 class="calculate">Calculate Simple Interest</h2>
+    </div>
+    <div class="main">
+        <label>Principle:</label><br>
+        <input type="number" id="p"><br>
+        <label>Time:</label><br>
+        <input type="number" id="t"><br>
+        <label>Rate:</label><br>
+        <input type="number" id="r">
+    </div>
+    <div class="click">
+        <button class="button" style="width: 100px;" onclick="simpleInterest()">Calculate</button>
+    </div>
+    <div class="foot">
+        <h3 id="answer"></h3>
+    </div>
+</body>
+<script src="simple.js"></script>
+
+</html>
