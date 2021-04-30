@@ -1,6 +1,24 @@
 git command:
 - We must push files from LOCAL AREA to STAGING AREA and STAGING AREA to RPOSITORY AREA
 
+# Create a new repository on new command line:
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/Prasthan/PizzaHut_webpage.git		<!-- In the part of link, there must be your repository link which is found in
+	git push -u origin master								your github. First, we must create a repositiory in github. -->
+	
+# Push an existing repository from the command line:
+	git add remote add origin https://github.com/Prasthan/PizzaHut_webpage.git
+	git push -u origin master
+
+# If the remote origin already exists, i.e. you have already set it before:
+	i) To view or see what/where remotes are set:
+		git remote -v
+	
+	ii) If you want to remove current origin:
+		git remote rm origin
+
 1. git config --list    [shows the users]
 
 2. to add or push file to staging area:
