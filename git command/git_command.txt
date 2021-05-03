@@ -13,6 +13,12 @@ git command:
 # Push an existing repository from the command line:
 	git add remote add origin https://github.com/Prasthan/PizzaHut_webpage.git
 	git push -u origin master
+			or
+	git init
+	git status
+	git add .
+	git commit -m "message"
+	git push -u origin master
 
 # If the remote origin already exists, i.e. you have already set it before:
 	i) To view or see what/where remotes are set:
