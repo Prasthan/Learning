@@ -20,6 +20,10 @@ git command:
 	git commit -m "message"
 	git push -u origin master
 
+# In case of failed in pushing:
+	git push origin master --force
+	git push origin master -f
+
 # If the remote origin already exists, i.e. you have already set it before:
 	i) To view or see what/where remotes are set:
 		git remote -v
